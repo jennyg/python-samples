@@ -1,5 +1,5 @@
 #This is an English to Pig Latin translator I wrote in a Codecademy tutorial.
-#todo, this should be a bit more complex, for example moving consonants up to the first vowel to the end of the word, not necessarily just the first letter. For example, "tracking" should return "ackingtray," not "rackingtay." 
+#todo, this followed the rules of the exercise, but it should really be first consoneant(s) before a vowel, not first consonant
 
 original = raw_input('Type a word: ') #Declares a variable for a word entered by a user.
 #First, it validates the word -- no characters besides letters, and at least one letter.
