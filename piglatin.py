@@ -11,7 +11,7 @@ if (len(original) > 0 and original.isalpha()) == True:
 	vowel_translation = word + ay
 	consonant_translation = word[1:] + first + ay
 	#This is the translator.
-    #Checks whether the word begin with a vowel or a consonant.
+    	#Checks whether the word begin with a vowel or a consonant.
     	if first in 'aeiou':
         	print vowel_translation
     	else:
