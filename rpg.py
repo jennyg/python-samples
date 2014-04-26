@@ -2,7 +2,7 @@
 Description:
 This is a modified version of a homework assignment. It's a
 simple fighting game that creates and uses a Fighter class,
-and has two instances of that class battle against each, RPG-style.
+and has two instances of that class battle each other, RPG-style.
 The user of this program will press enter in between each round of the
 fight to continue it, and the program will end when one of the
 instances is "killed" by losing all of its hit points.
@@ -55,7 +55,8 @@ class Fighter:
         else:
             print('\t' + self.name + ' has ' + str(self.hit_points)
                  + ' hit points remaining, has shed ' +
-                 str(self.sads) + ' tears, and has +' + str(self.luck) + ' luck.')
+                 str(self.sads) + ' tears, and has +' + str(self.luck) + 
+                 ' luck.')
         return None
          
     def attack(self, other):
