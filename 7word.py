@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #script for 7 word story processing :)
-#these were formated like Firstname Lastname: Seven word quote**
+#these were formatted like Firstname Lastname: Seven word quote**
 #output cleaned up version with just the seven word quote for js widget
    
 def strip_attributions(line):
