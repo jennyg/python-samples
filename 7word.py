@@ -2,7 +2,8 @@
 
 #script for 7 word story processing :)
 #these were formatted like Firstname Lastname: Seven word quote**
-#output cleaned up version with just the seven word quote for js widget
+#output cleaned up version with just the seven word quote formatted to add
+#to javascript array
    
 def strip_attributions(line):
    #strips attributions, found before colon, from given string
@@ -29,7 +30,7 @@ for line in source_file:
    fixed_line = remove_chars(line)
    fixed_line = strip_attributions(fixed_line)
    #formats with quotation marks and newline
-   to_write += "\"" + fixed_line + "\""  + "\n"
+   to_write += "\"" + fixed_line + "\","  + "\n"
    
 output_file = open("fixed7words.txt", "w")
 
